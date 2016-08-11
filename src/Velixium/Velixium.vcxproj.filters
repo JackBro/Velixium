@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dll.cpp" />
+    <ClCompile Include="Logger\Logger.cpp">
+      <Filter>Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Proxy\Proxy.cpp">
+      <Filter>Proxy</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dll.h" />
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Proxy\Proxy.h">
+      <Filter>Proxy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Logger">
+      <UniqueIdentifier>{7d569215-1064-4f83-8a8e-d0e0b65c33f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Proxy">
+      <UniqueIdentifier>{1a1e6d1c-f7a4-4a04-974d-60f83ccc8cd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
