@@ -15,8 +15,6 @@
 #include <iostream>
 #include <fstream>
 
-//#define DEBUG
-
 using namespace blackbone;
 using namespace std;
 
@@ -24,3 +22,4 @@ extern Process engine;
 
 #include "Logger\Logger.h"
 #include "Proxy\Proxy.h"
+#include "DirectX\DirectX.h"

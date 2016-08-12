@@ -1,4 +1,5 @@
 #include "Proxy.h"
+Proxy* proxy;
 
 void Proxy::memcpy(ptr_t address, PBYTE value, int len)
 {

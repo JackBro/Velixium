@@ -8,6 +8,9 @@
     <ClCompile Include="Proxy\Proxy.cpp">
       <Filter>Proxy</Filter>
     </ClCompile>
+    <ClCompile Include="DirectX\DirectX.cpp">
+      <Filter>DirectX</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dll.h" />
@@ -17,6 +20,9 @@
     <ClInclude Include="Proxy\Proxy.h">
       <Filter>Proxy</Filter>
     </ClInclude>
+    <ClInclude Include="DirectX\DirectX.h">
+      <Filter>DirectX</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Logger">
@@ -24,6 +30,9 @@
     </Filter>
     <Filter Include="Proxy">
       <UniqueIdentifier>{1a1e6d1c-f7a4-4a04-974d-60f83ccc8cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX">
+      <UniqueIdentifier>{bba71c3a-2fc7-4d19-bad0-bb090979e49a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

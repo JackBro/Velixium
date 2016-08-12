@@ -1,8 +1,6 @@
 #include "dll.h"
 
 Process engine;
-Logger logger;
-Proxy* proxy;
 
 void WINAPI Main(LPVOID)
 {
@@ -10,7 +8,7 @@ void WINAPI Main(LPVOID)
 	while (!proxy->GetModule(L"x3.xem"))
 		Sleep(250);
 
-	logger.log("hooked");
+	logger.log("Velixium ready");
 
 	while (1)
 	{
@@ -28,10 +26,7 @@ bool WINAPI DllMain(HMODULE hDll, DWORD dwReason, LPVOID lpReserved)
 			MessageBoxA(NULL, "Unable to attach to Engine.exe!", "Error", MB_OK);
 			exit(0);
 		}
-		else
-		{
-			engine.threads().CreateNew((ptr_t)Main, NULL);
-		}
+		else engine.threads().CreateNew((ptr_t)Main, NULL);
 	}
 
 	return true;
