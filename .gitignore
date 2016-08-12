@@ -1,4 +1,3 @@
-# Compiled Object files
 *.slo
 *.suo
 *.lo
@@ -7,30 +6,19 @@
 *.VC.opendb
 *.VC.db
 *.iobj
-.ipdb
-.pdb
-
-
-# Precompiled Headers
+*.ipdb
+*.pdb
 *.gch
 *.pch
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
 *.mod
 *.smod
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 *.lib
-
-# Executables
 *.exe
 *.out
 *.app
