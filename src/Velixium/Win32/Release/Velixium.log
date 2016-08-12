@@ -1,8 +1,0 @@
-﻿  Generating code
-  0 of 4374 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  Finished generating code
-dll.obj : warning LNK4049: locally defined symbol ?x86RegData@asmjit@@3UX86RegData@1@B (struct asmjit::X86RegData const asmjit::x86RegData) imported
-  Velixium.vcxproj -> C:\Users\Jeff\Documents\Visual Studio 2015\Projects\Velixium\build\Win32\Release\Velixium.dll
-  Velixium.vcxproj -> C:\Users\Jeff\Documents\Visual Studio 2015\Projects\Velixium\build\Win32\Release\Velixium.pdb (Full PDB)

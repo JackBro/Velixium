@@ -1,6 +1,0 @@
-﻿  Generating code
-  All 4277 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-dll.obj : warning LNK4049: locally defined symbol ?x86RegData@asmjit@@3UX86RegData@1@B (struct asmjit::X86RegData const asmjit::x86RegData) imported
-  Velixium.vcxproj -> C:\Users\Jeff\Documents\Visual Studio 2015\Projects\Velixium\build\x64\Release\Velixium.dll
-  Velixium.vcxproj -> C:\Users\Jeff\Documents\Visual Studio 2015\Projects\Velixium\build\x64\Release\Velixium.pdb (Full PDB)
